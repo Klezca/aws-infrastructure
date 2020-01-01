@@ -1,0 +1,54 @@
+[
+    {
+      "ParameterKey": "VersionParameter",
+      "ParameterValue": "1.0.0"
+    }, 
+    {
+      "ParameterKey": "CertificateArn",
+      "ParameterValue": "arn:aws:acm:ap-southeast-2:641924257625:certificate/b8e4da74-cec7-4cea-8183-787b9c58b100"
+    }, 
+    {
+      "ParameterKey": "KeyName",
+      "ParameterValue": "treiner-Staging"
+    },
+    {
+      "ParameterKey": "EnvironmentName",
+      "ParameterValue": "Staging"
+    },
+    {
+      "ParameterKey": "InstanceType",
+      "ParameterValue": "t3a.micro"
+    }, 
+    {
+      "ParameterKey": "InitialNumberofWebServer",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "MaximumNumberofWebServer",
+      "ParameterValue": "2"
+    }, 
+    {
+      "ParameterKey": "VPC",
+      "ParameterValue": "vpc-04da934b67add9eae"
+    }, 
+    {
+      "ParameterKey": "PublicSubnets",
+      "ParameterValue": "stagingsubnet-035010130e7621781,subnet-0d5be25b89807c988,subnet-092fb8cbc494c5029Treiner"
+    },
+    {
+      "ParameterKey": "PrivateSubnets",
+      "ParameterValue": "subnet-0c8db3e9e2236ff3c,subnet-0a2c96972550a8cb5,subnet-03c42978d3b0bd396"
+    }, 
+    {
+      "ParameterKey": "LBSecurityGroup",
+      "ParameterValue": "sg-0f5c92ab9672dd5ea"
+    },
+    {
+      "ParameterKey": "EC2SecurityGroup",
+      "ParameterValue": "sg-0fcde9c7cf7a7bbb7"
+    },
+    {
+      "ParameterKey": "RedisClusterEndpoint",
+      "ParameterValue": "clustercfg.staging-redis-clusters.l6nsdu.apse2.cache.amazonaws.com"
+    }  
+]

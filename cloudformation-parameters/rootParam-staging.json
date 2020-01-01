@@ -1,0 +1,58 @@
+[
+  {
+    "ParameterKey": "CertificateArn",
+    "ParameterValue": "arn:aws:acm:ap-southeast-2:AWSAccountID:certificate/ARNnumber"
+  }, 
+  {
+    "ParameterKey": "AuroraSnapshotArn",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RedisBackupName",
+    "ParameterValue": ""
+  }, 
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t3a.micro"
+  },   
+  {
+    "ParameterKey": "DBInstanceSize",
+    "ParameterValue": "db.t3.small"
+  },  
+  {
+    "ParameterKey": "RedisType",
+    "ParameterValue": "cache.t3.micro"
+  }, 
+  {
+    "ParameterKey": "InitialNumberofWebServer",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "MaximumNumberofWebServer",
+    "ParameterValue": "2"
+  }, 
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "Prod"
+  }, 
+  {
+    "ParameterKey": "DBName",
+    "ParameterValue": "stagingDB"
+  },
+  {
+    "ParameterKey": "DatabaseUsername",
+    "ParameterValue": "staging-DB-rds"
+  }, 
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "KeyName-Staging"
+  },
+  {
+    "ParameterKey": "RedisAUTHtoken",
+    "ParameterValue": "dsads3dsagbdfdffdgfd"
+  }, 
+  {
+    "ParameterKey": "DatabasePassword",
+    "ParameterValue": "dsads3dsagbdfdffdgfd"
+  }
+]

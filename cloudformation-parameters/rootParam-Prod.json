@@ -1,0 +1,58 @@
+[
+  {
+    "ParameterKey": "CertificateArn",
+    "ParameterValue": "<Create a new certificate for *.example.com and add the arn>"
+  }, 
+  {
+    "ParameterKey": "AuroraSnapshotArn",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RedisBackupName",
+    "ParameterValue": ""
+  }, 
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t3a.large"
+  },   
+  {
+    "ParameterKey": "DBInstanceSize",
+    "ParameterValue": "db.t3.medium"
+  },  
+  {
+    "ParameterKey": "RedisType",
+    "ParameterValue": "cache.t3.medium"
+  }, 
+  {
+    "ParameterKey": "InitialNumberofWebServer",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "MaximumNumberofWebServer",
+    "ParameterValue": "2"
+  }, 
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "Prod"
+  }, 
+  {
+    "ParameterKey": "DBName",
+    "ParameterValue": "prod-treiner-rds"
+  },
+  {
+    "ParameterKey": "DatabaseUsername",
+    "ParameterValue": "prod-treiner-rds"
+  }, 
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RedisAUTHtoken",
+    "ParameterValue": "dsads3dsagbdfdffdgfd"
+  }, 
+  {
+    "ParameterKey": "DatabasePassword",
+    "ParameterValue": "dsads3dsagbdfdffdgfd"
+  }
+]
