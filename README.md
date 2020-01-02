@@ -1,6 +1,6 @@
 # Deploying a 3-tier web application with AWS Cloudformation
 
-This repository provides a set of YAML templates and linux shell scripts for deploying a 3-tier web application to [Amazon EC2 instances](https://aws.amazon.com/ec2/), [Aurora-MySQL cluster](https://aws.amazon.com/rds/aurora/) and [Redis Elasticache](https://aws.amazon.com/elasticache/) with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+This repository provides a set of YAML templates and linux shell scripts for deploying a 3-tier web application to [Amazon EC2 instances](https://aws.amazon.com/ec2/), [Aurora-MySQL cluster](https://aws.amazon.com/rds/aurora/) and [Redis Elasticache cluster](https://aws.amazon.com/elasticache/) with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
 
 ## Overview
 ![infrastructure-overview](images/staging-architecture.png)
